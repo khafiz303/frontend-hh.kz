@@ -1,0 +1,40 @@
+.specTypes{
+    display: flex;
+    /* align-items: left; */
+    gap: 10px;
+    padding: 10px 0;
+    cursor: pointer;
+    /* flex-direction: column; */
+}
+
+.specTypes img{
+    width: 15px;
+    height: 15px;
+    transform: rotate(270deg);
+}
+
+.specTypes.active img{
+    transform: rotate(0deg);
+    width: 15px;
+    height: 15px;
+ 
+}
+.specTypesactive img{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.spec{
+    /* display: flex; */
+    gap: 10px;
+    align-items: center;
+    padding: 5px 0 5px 20px;
+
+
+}
+
+.spec input{
+    width: 20px;
+    height: 20px;
+}

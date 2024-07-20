@@ -1,0 +1,35 @@
+h1{
+    font-size: 24px;
+}
+
+
+h2{
+    font-size: 20px;
+}
+
+h3 , .h3{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+h4{
+    font-size: 12px;
+}
+
+.link{
+    color: #589BEB;
+    cursor: pointer;
+    
+}
+
+.cp{
+    cursor: pointer;
+}
+
+.error{
+    color: #ff0000;
+}
+
+.mt2{
+    margin-top: 10px;
+}

@@ -1,0 +1,48 @@
+.button{
+    border-radius: 4px;
+    height: 40px;
+    padding: 0 20px;
+    outline: none;
+    border: none ;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-primary{
+    background-color: #1785E5;
+    color: #fff ;
+}
+
+.button-primary:hover{
+    opacity: 0.9;
+}
+
+.button-primary-bordered{
+    border:1px solid #1785E5;
+    background-color: transparent;
+    color: #1785E5 ;
+}
+
+.button-primary-bordered:hover{
+    opacity: 0.8;
+}
+.button-primary-bordered{
+    border:1px solid #1785E5;
+    background-color: transparent;
+    color: #1785E5 ;
+}
+
+.button-primary-bordered:hover{
+    opacity: 0.8;
+}
+.button-secondary-bordered{
+    border:1px solid #BCBEBF;
+    background-color: #FAFAFA;
+    color: #303233 ;
+}
+
+.button-secondary-bordered:hover{
+    opacity: 0.8;
+}

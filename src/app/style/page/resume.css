@@ -1,0 +1,11 @@
+.working-history-date{
+    width: 130px;
+    margin-block-start: 1.33em;
+}
+
+.deleteResume{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}

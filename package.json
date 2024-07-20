@@ -5,13 +5,21 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3001",
     "lint": "next lint"
   },
   "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^42.0.1",
+    "@ckeditor/ckeditor5-react": "^8.0.0",
+    "@reduxjs/toolkit": "^2.2.6",
+    "axios": "^1.7.2",
+    "ckeditor5": "^42.0.1",
+    "ckeditor5-premium-features": "^42.0.1",
+    "jwt-decode": "^4.0.0",
+    "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.4"
+    "react-redux": "^9.1.2"
   },
   "devDependencies": {
     "eslint": "^8",
