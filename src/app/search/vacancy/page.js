@@ -18,7 +18,7 @@ function SearchVacancyComponent() {
     const [specializationId, setSpecialization] = useState(searchParams.get('specializationId') || '')
     const [specializationName, setSpecializationName] = useState('')
     const [salary, setSalary] = useState(searchParams.get('salary') || '')
-    const [salary_type, setsalary_type] = useState(searchParams.get('salary_type') || 'KZT')
+    const [salary_type, setsalary_type] = useState(searchParams.get('salary_type') || '')
     const [experienceId, setExperienceId] = useState(searchParams.get('experienceId') || '')
     const [employmentTypeId, setEmploymentTypeId] = useState(searchParams.get('employmentTypeId') || '')
     const dispatch = useDispatch()

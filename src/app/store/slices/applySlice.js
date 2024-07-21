@@ -19,11 +19,10 @@ export const applySlice = createSlice({
     setApplies: (state , action) => {
         state.applies = action.payload
     },
-    removeApply: (state , action) => {
-        let applies = [...state.applies]
-        applies = applies.filter(item => item.id !== action.payload)
-        state.applies = applies
-        },
+    removeApply: (state, action) => {
+      state.applies = state.applies.filter(item => item.id != action.payload);
+    },
+    
     setApplyStatus: (state , action) => {
       let applies = [...state.applies]
       applies = applies.map(item => {

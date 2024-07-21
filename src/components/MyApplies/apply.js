@@ -14,7 +14,7 @@ export default function MyApply({item}){
                 {item.status}
             </div>
             <div className="col">
-                {item.vacancy.name}
+                {item.vacancy?.name}
                 <div className="link mt2" onClick={()=> dispatch(deleteApply(item.id))}>
                     Удалить
                 </div>

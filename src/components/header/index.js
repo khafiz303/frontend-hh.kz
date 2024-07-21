@@ -42,16 +42,18 @@ export default function Header() {
                         {currentUser && currentUser.role && currentUser.role.name !== 'manager' && (
                             <a href="/resumes" className="nav-link">Мои резюме</a>
                         )}
-                        {currentUser && currentUser.role && currentUser.role.name === 'manager' && (
+                        {currentUser && currentUser.role && currentUser.role.name !== 'manager' && (
                             <Link href='/applies' className="nav-link">Отклики</Link>
                         )}
                         <a href="#" className="nav-link">Помощь</a>
                     </div>
                     <div>
+                    {currentUser && currentUser.role && currentUser.role.name !== 'manager' && (
                         <Link href={`/search/vacancy/advanced`} className="header-search">
                             <img src='/images/search.svg' alt="Search Icon" />
                             Поиск
                         </Link>
+                    )}
                         {currentUser && currentUser.role && currentUser.role.name === 'manager' && (
                             <Link href='/create-vacancy' className="header-button header-button--green">
                                 Создать вакансию

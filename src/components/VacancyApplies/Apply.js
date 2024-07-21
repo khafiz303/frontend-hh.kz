@@ -5,7 +5,7 @@ import { getAgeFromBirthday } from "@/app/utils/format"
 import { acceptApply , declineApply } from "@/app/store/slices/applySlice"
 export default function Apply({item}){
     const dispatch =useDispatch()
-    const age = getAgeFromBirthday(item.resume.birthday)
+    const age = getAgeFromBirthday(item.resume?.birthday)
     return(
         <div  className="card">
             {item.resume &&  item.resume.position && <Link className="link" href={`/resumes/${item.resume.id}`}>{item.resume.position}</Link>}

@@ -19,11 +19,11 @@ export default function VacancyApplies() {
     const dispatch = useDispatch()
     useEffect(()=>{
         dispatch(getVacancyApplies(id))
-    }, [])
+    }, [dispatch ,status, applies])
     const filteredItems = applies.filter(item => item.status == status)
 
   return (
-    <ProtectedRoute>
+    // <ProtectedRoute>
     <main>
         <Header/>
         <div className='container'>
@@ -47,6 +47,6 @@ export default function VacancyApplies() {
 
 
     </main>
-    </ProtectedRoute>
+    // </ProtectedRoute>
   );
 }

@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# hh.kz Frontend
 
-## Getting Started
+![hh.kz Logo](https://upload.wikimedia.org/wikipedia/commons/1/15/HH_logo.png)
 
-First, run the development server:
+## О проекте
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+hh.kz Frontend - это клиентская часть приложения для имитации функциональности платформы hh.kz. Этот проект предоставляет пользователям интерфейс для поиска вакансий, создания и редактирования резюме, взаимодействия с вакансиями и работодателями, а также управления профилем пользователя.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Основные функции
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Поиск вакансий и фильтрация результатов
+- Просмотр и создание резюме
+- Взаимодействие с вакансиями (лайки, отклики)
+- Управление профилем пользователя
+- Создание и редактирование вакансий (для работодателей)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Технологии
 
-## Learn More
+- React (библиотека для построения пользовательского интерфейса)
+- Next.js (фреймворк для серверного рендеринга и статической генерации)
+- Redux (для управления состоянием приложения)
+- Axios (для выполнения HTTP-запросов)
+- CSS/SCSS (для стилизации компонентов)
 
-To learn more about Next.js, take a look at the following resources:
+## Установка и запуск
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Клонируйте репозиторий:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    ```bash
+    git clone https://github.com/khafiz303/frontend-hh.kz.git
+    ```
 
-## Deploy on Vercel
+2. Перейдите в каталог проекта:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```bash
+    cd hh-kz-frontend
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3. Установите зависимости:
+
+    ```bash
+    npm install
+    ```
+
+4. Запустите приложение в режиме разработки:
+
+    ```bash
+    npm run dev
+    ```
+
+   Откройте [http://localhost:3001](http://localhost:3001) в браузере, чтобы увидеть приложение.
+
+5. Для сборки продакшн-версии используйте:
+
+    ```bash
+    npm run build
+    ```
+
+   Затем запустите приложение:
+
+    ```bash
+    npm start
+    ```
+
+## Ссылки
+
+- [GitHub Репозиторий](https://github.com/khafiz303/frontend-hh.kz.git)
+- [Документация по Next.js](https://nextjs.org/docs)
+- [Документация по Redux](https://redux.js.org/)
+- [Документация по Axios](https://axios-http.com/docs/intro)
+
+## Лицензия
+
+Этот проект лицензирован под MIT лицензией. Подробности смотрите в [LICENSE](LICENSE) файле.
